@@ -1,9 +1,9 @@
-package com.len.demo.designpatterns.factory;
+package com.len.demo.design_patterns.factory;
 
-import com.len.demo.designpatterns.factory.entity.AudiCar;
-import com.len.demo.designpatterns.factory.entity.BenzCar;
-import com.len.demo.designpatterns.factory.entity.BmwCar;
-import com.len.demo.designpatterns.factory.entity.Car;
+import com.len.demo.design_patterns.factory.entity.AudiCar;
+import com.len.demo.design_patterns.factory.entity.BenzCar;
+import com.len.demo.design_patterns.factory.entity.BmwCar;
+import com.len.demo.design_patterns.factory.entity.Car;
 
 /**
  * 车辆工厂类

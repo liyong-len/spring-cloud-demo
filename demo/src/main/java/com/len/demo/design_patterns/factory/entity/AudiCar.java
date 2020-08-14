@@ -1,6 +1,6 @@
-package com.len.demo.designpatterns.factory.entity;
+package com.len.demo.design_patterns.factory.entity;
 
-import com.len.demo.designpatterns.factory.inter.CarShop;
+import com.len.demo.design_patterns.factory.inter.CarShop;
 import lombok.Data;
 
 /**
@@ -11,11 +11,11 @@ import lombok.Data;
  * @Version 1.0
  */
 @Data
-public class BenzCar extends Car implements CarShop {
+public class AudiCar extends Car implements CarShop {
 
-    private String mode;
+    private String engine;
 
-    public BenzCar() {
+    public AudiCar() {
         this.getCat();
     }
 
@@ -26,7 +26,8 @@ public class BenzCar extends Car implements CarShop {
      */
     @Override
     public Car getCat() {
-        System.out.println("生产了奔驰");
+        System.out.println("生产了奥迪");
         return this;
     }
+
 }

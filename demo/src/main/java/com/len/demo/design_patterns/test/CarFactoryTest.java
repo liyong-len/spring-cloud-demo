@@ -1,7 +1,7 @@
-package com.len.demo.designpatterns.test;
+package com.len.demo.design_patterns.test;
 
-import com.len.demo.designpatterns.factory.CarFactory;
-import com.len.demo.designpatterns.factory.entity.Car;
+import com.len.demo.design_patterns.factory.CarFactory;
+import com.len.demo.design_patterns.factory.entity.Car;
 
 /**
  * @ClassName CarFactoryTest
