@@ -1,4 +1,4 @@
-package com.len.demo.designpatterns.entity;
+package com.len.demo.designpatterns.factory.entity;
 
 import lombok.Data;
 

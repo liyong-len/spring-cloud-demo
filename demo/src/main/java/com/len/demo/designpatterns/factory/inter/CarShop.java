@@ -1,4 +1,6 @@
-package com.len.demo.designpatterns.entity;
+package com.len.demo.designpatterns.factory.inter;
+
+import com.len.demo.designpatterns.factory.entity.Car;
 
 /**
  * @ClassName CarShop
