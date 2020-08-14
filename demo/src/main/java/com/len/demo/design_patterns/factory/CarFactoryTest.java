@@ -1,6 +1,5 @@
-package com.len.demo.design_patterns.test;
+package com.len.demo.design_patterns.factory;
 
-import com.len.demo.design_patterns.factory.CarFactory;
 import com.len.demo.design_patterns.factory.entity.Car;
 
 /**
