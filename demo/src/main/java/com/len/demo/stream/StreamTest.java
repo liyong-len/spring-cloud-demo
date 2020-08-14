@@ -1,4 +1,4 @@
-package com.len.demo.test;
+package com.len.demo.stream;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.len.demo.test;
+package com.len.demo.stream;
 
-import com.len.demo.test.entity.Book;
-import com.len.demo.test.entity.Person;
+import com.len.demo.stream.entity.Book;
+import com.len.demo.stream.entity.Person;
 
 import java.util.Comparator;
 import java.util.TreeSet;

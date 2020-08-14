@@ -1,4 +1,4 @@
-package com.len.demo.test.entity;
+package com.len.demo.stream.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

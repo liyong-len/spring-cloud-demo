@@ -1,6 +1,6 @@
-package com.len.demo.design_patterns.factory.entity;
+package com.len.demo.designpatterns.factory.entity;
 
-import com.len.demo.design_patterns.factory.inter.CarShop;
+import com.len.demo.designpatterns.factory.inter.CarShop;
 import lombok.Data;
 
 /**

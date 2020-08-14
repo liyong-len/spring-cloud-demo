@@ -1,21 +1,21 @@
-package com.len.demo.design_patterns.factory;
+package com.len.demo.designpatterns.abstractfactory;
 
-import com.len.demo.design_patterns.factory.entity.AudiCar;
-import com.len.demo.design_patterns.factory.entity.BenzCar;
-import com.len.demo.design_patterns.factory.entity.BmwCar;
-import com.len.demo.design_patterns.factory.entity.Car;
+import com.len.demo.designpatterns.factory.entity.*;
 
 /**
- * 车辆工厂类
- *
  * @ClassName CarFactory
  * @Description CarFactory
  * @Author liyong
- * @Date 2020/8/14 13:49
+ * @Date 2020/8/14 14:30
  * @Version 1.0
  */
-public class CarFactory {
+public class CarFactory extends AbstractFactory {
+    @Override
+    public Color getColor(String color) {
+        return null;
+    }
 
+    @Override
     public Car getCarByBrand(String type) {
         switch (type) {
             case "audi":
